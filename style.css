@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+.header-up {
+    position: relative;
+    height: 130px;
+    width: 1520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    width: 300px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.header-below {
+    position: absolute;
+    z-index: 1;
+    width: 1100px;
+    top: 100%;
+    left: 13%;
+    right: 13%;
+    height: 50px;
+    background-color: #002345;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.header-below ul a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.header-below li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.header-below>a {
+    color: white;
+    font-size: 20px;
+    margin: -2px;
+}
+
+.header-below a:hover {
+    color: #fa981d;
+}
+
+.header-below a:active {
+    color: #fa981d;
+}
+
+.mainone {
+    position: relative;
+    margin-top: 35px;
+    background-image: url('https://gbcareservices.co.uk/wp-content/uploads/2022/02/doctor-patient1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.mainone .data {
+    background-color: #ffffffc5;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mainone h1 {
+    color: #002345;
+    padding-top: 130px;
+    font-size: 50px;
+    margin-bottom: 30px;
+    opacity: 1.0;
+    z-index: 2;
+}
+
+.mainone p {
+    color: #486683;
+    font-size: 18px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.mainone .data>span {
+
+    background-color: #f1981D;
+    border: #fa981D;
+    border-radius: 25px;
+    padding: 15px;
+    width: 20px;
+    height: 60px;
+    text-align: center;
+}
+
+span a {
+    text-decoration: none;
+    color: white;
+    font: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mainone .data>span:hover {
+    background-color: #002345;
+}
+
+.maintwo {
+    position: relative;
+    top: 69px;
+    z-index: -2;
+    letter-spacing: 0em;
+    line-height: 1.8;
+    height: 380px;
+    width: 100%;
+}
+
+.maintwo h1 {
+    display: inline;
+    width: 88%;
+    font-size: 35px;
+    color: #002345;
+}
+
+.right {
+    display: grid;
+    grid-template-columns: 100%;
+    position: absolute;
+    left: 700px;
+    width: 40%;
+    height: 33%;
+}
+
+.left {
+    display: grid;
+    grid-template-columns: 100%;
+    position: absolute;
+    left: 200px;
+    width: 40%;
+    height: 23%;
+}
+
+.list-item {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 100%;
+    font-size: 25px;
+    color: #486683;
+    line-height: 2;
+}
+
+h6 {
+    font-weight: lighter;
+
+}
+
+.mainthird h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #002345;
+}
+
+.mainthird p {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 17px;
+    color: #486683;
+}
+
+.list {
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 25px;
+    line-height: 2;
+    color: #486683;
+}
+
+.fa-check {
+    margin-right: 10px;
+    color: #f1981D;
+    font-size: 2px;
+}
+
+.footerone {
+    margin-top: 30px;
+    background-image: url('https://gbcareservices.co.uk/wp-content/uploads/2022/02/doc.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    padding-top: 60px;
+}
+
+.footerone>span {
+    background-color: #f1981D;
+    border: #fa981D;
+    border-radius: 25px;
+    padding: 15px;
+    width: 20px;
+    height: 60px;
+    text-align: center;
+}
+
+.footerone span a {
+    text-decoration: none;
+    color: white;
+    font: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footerone>span:hover {
+    background-color: #002345;
+}
+
+.footerone h1 {
+    color: white;
+    font-size: 40px;
+    display: inline;
+    margin-left: 120px;
+    margin-top: 90px;
+    align-self: center;
+
+}
+
+.footerone span {
+    display: inline;
+    margin-left: 520px;
+    margin-top: 90px;
+    align-self: center;
+
+}
+
+.footertwo {
+    background-color: #002345;
+    height: 670px;
+}
+
+.gridlayout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.downdivs {
+    width: 500px;
+    /* background-color:#fa981d; */
+    height: 500px;
+}
+
+.downdivs img {
+    height: 85px;
+    width: 400px;
+    float: right;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.downdivs p {
+    color: white;
+    margin-left: 100px;
+    margin-top: 140px;
+    line-height: 2;
+}
+
+.downdivs p a {
+    color: white;
+    text-decoration: none;
+    /* animation: uline 0.5 linear;  */
+}
+
+.downdivs p a:hover {
+    text-decoration: underline;
+    animation: uline 3s linear;
+}
+
+.downdivs p span {
+    color: #f1981D;
+
+}
+
+#blow-links {
+    margin-top: 55px;
+    color: white;
+}
+
+#blow-links h3 {
+    margin-bottom: 30px;
+}
+
+#blow-links li a {
+    line-height: 2.5;
+    color: white;
+    text-decoration: none;
+
+}
+
+#blow-links li a:hover {
+    text-decoration: underline;
+}
+
+#blow-links ul {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.followUS {
+    color: white;
+    margin-top: 60px;
+    margin-left: 13px;
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+.openTime {
+    color: white;
+    margin-left: 13px;
+    margin-top: 20px;
+    height: 20px;
+    width: 140px;
+}
+#downdiv3 .adresses{
+    margin-top: 20px;
+    margin-left:13px;
+}
+
+#onelogo {
+    margin-top: 14px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#twologo {
+    margin-top: 14px;
+    margin-left: 18px;
+    font-size: 20px;
+}
+
+#threelogo {
+    margin-top: 14px;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+#fourlogo {
+    margin-top: 14px;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+#lone {
+    background-color: #306ea8;
+}
+
+#ltwo {
+    background-color: rgb(63, 193, 244);
+}
+
+#lthree {
+    background-color: red;
+}
+
+#lfour {
+    background-color: rgb(254, 92, 92);
+}
+
+#lone:hover {
+    background-color: #ffff;
+    color: #306ea8;
+}
+
+#ltwo:hover {
+    background-color: #ffff;
+    color: rgb(63, 193, 244);
+}
+
+#lthree:hover {
+    background-color: white;
+    color: red;
+}
+
+#lfour:hover {
+    background-color: #ffff;
+    color: rgb(254, 92, 92);
+}
+
+#downdiv3 a {
+    margin: 6px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.footertwo .borderbar{
+    border-top: 1px solid rgb(19, 10, 28);
+    width: 1300px;
+    height: 100px;
+    margin-left: 90px;
+}
+.footertwo .borderbar p{
+    color: white;
+    margin-top: 15px;
+    padding: 30px;
+    display: inline-block;
+}
+#number{
+    margin-left: 200px;
+}
+.footertwo .borderbar p a{
+    color: white;
+    text-decoration: none;
+}
+.footertwo .borderbar p a:hover{
+    color: #fa981D;
+}
+.footertwo .borderbar p i{
+    color: #f1981D;
+    margin-right: 5px;
+}
